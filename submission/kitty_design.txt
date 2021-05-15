@@ -1,0 +1,21 @@
+Calls
+
+	fn create_kitty
+
+Types
+
+  Struct Kitty
+	owner: AccountId
+	dna: u128
+	gender: {male, female}
+
+Storages
+	Kitties: Double map AccountId, KittyId => Kitty
+	NextKittyId: Kitty
+	
+Events
+	KittyCreated
+		kitty_id:KittyId
+		creator: AccountId
+		kitty:Kitty
+	
