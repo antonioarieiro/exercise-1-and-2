@@ -1,9 +1,9 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Jhoni Vieceli <https://github.com/veiodruida/exercise-1-and-2>']
 build = 'build.rs'
-description = 'A fresh FRAME-based Substrate node, ready for hacking.'
+description = 'Um node de exemplo'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'https://github.com/veiodruida/exercise-1-and-2'
 license = 'Unlicense'
 name = 'node-template'
 repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
